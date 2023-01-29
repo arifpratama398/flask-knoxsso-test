@@ -24,11 +24,11 @@ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 36
 3. Copy Knox Gateway Certificate to this root folder with name `gateway.crt`
 
 > Note : this is important for application jwt verification
+> for this task, maybe you should contact administartor
 
 4. Run application
 
 ```bash
 ./run.sh
 ```
-
 

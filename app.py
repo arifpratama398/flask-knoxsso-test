@@ -9,8 +9,8 @@ app = Flask(__name__)
 # Common configuration needed for KNOXSSO
 SSO_PROVIDER_REDIRECT_URL="https://winter-03.ylabs247.com:8443/gateway/knoxsso/api/v1/websso"
 SSO_PROVIDER_COOKIE_NAME="hadoop-jwt"
-ORIGINAL_URL_QUERY_PARAM="originalUrl="
 SSO_PUBLIC_KEY_FILE="./gateway.crt"
+ORIGINAL_URL_QUERY_PARAM="originalUrl="
 
 # Get public key from provided public certificate.
 # Public key used to verify signed JWT.
